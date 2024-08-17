@@ -1,0 +1,19 @@
+.card{
+    width: 250px;
+    box-shadow: 0 0 10px #ccc;
+}
+.hedder{
+    text-align: center;
+    background-color: rgb(140, 150, 125);
+    color: #fff;
+    padding: 25px;
+    font-size: 2em;
+}
+.text{
+    text-align: center;
+    padding: 4px;
+    font-size: 24px;
+    font-weight:bold ;
+    text-shadow: 0 0 5px #ccc;
+    color: coral;
+}

@@ -1,0 +1,60 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+#main_manu{
+    background-color: #30336b;
+    
+}
+#main_manu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;  
+}
+#main_manu li{
+    display: inline-block;
+    position: relative;
+
+}
+#main_manu li a{
+    display: block;
+    padding: 12px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; 
+}
+#main_manu li a:hover{
+    background-color: #dff9fb;
+    color: #000;
+}
+
+/* Dropdwon Manu Style */
+
+#main_manu ul ul{
+    position: absolute;
+    left: 0;
+    top: 48px;
+    background-color: #ffbe76;
+    width: 170px;
+    display: none;
+}
+#main_manu ul ul li{
+    display: block;
+}
+
+#main_manu ul li:hover ul{
+    display: block;
+}
+#main_manu ul li:hover a{
+    background-color: #dff9fb;
+    color: #000;
+}
+#main_manu ul li:hover li a{
+    background-color: #ffbe76;
+    color: #fff;
+}
+#main_manu ul ul li a:hover{
+    background-color: #ff7979;
+    color: #f5e0e0;
+}
